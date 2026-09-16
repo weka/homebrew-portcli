@@ -1,17 +1,17 @@
 class Portcli < Formula
   desc "CLI tool for Port.io self-service actions"
   homepage "https://github.com/weka/portcli"
-  version "1.2.0"
+  version "1.2.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://weka.github.io/portcli/releases/portcli_1.2.0_darwin_arm64.tar.gz"
-      sha256 "6917e6ab0160fd9ea4e7f7342cfd3a634e8ce8a9cf6554d0fa7ab280875125dd"
+      url "https://weka.github.io/portcli/releases/portcli_1.2.1_darwin_arm64.tar.gz"
+      sha256 "3ae64225b490e4bebb57c9d2ffe10074ea729999f053094fe2f012c3eb0c84c6"
     end
     on_intel do
-      url "https://weka.github.io/portcli/releases/portcli_1.2.0_darwin_amd64.tar.gz"
-      sha256 "93fad9b67a0784add974f673015031400ad3502e9798c9bac4a2ec890e1a5445"
+      url "https://weka.github.io/portcli/releases/portcli_1.2.1_darwin_amd64.tar.gz"
+      sha256 "3c4444f6518e99b351e936cdc8a5ce86310dec5e53f8fbe90c9c93fb68de55aa"
     end
   end
 
